@@ -5,6 +5,7 @@ Authors
 * Abdellah El Youssfi Alaoui
 * Adam Rurański
 * Adam Taylor
+* Adam Yuhasz
 * Adnane Belmadiaf
 * Adonys Alea Boffill
 * Adrian Holovaty
@@ -39,6 +40,7 @@ Authors
 * Daniel Ampuero
 * Daniela Ponader
 * Danielle Madeley
+* David Chatelain
 * David Smith
 * Daniel Roschka
 * Didier 'OdyX' Raboud
@@ -115,6 +117,7 @@ Authors
 * Rael Max
 * Ramiro Morales
 * Raphael Michel
+* Renne Rocha
 * Rolf Erik Lekang
 * Russell Keith-Magee
 * Santosh Bhattarai
@@ -141,3 +144,5 @@ Authors
 * Tudor Amariei
 * Dishan Sachin
 * Kacper Urbański
+* Sami El Achi
+* Omar Saleh

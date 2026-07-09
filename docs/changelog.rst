@@ -6,12 +6,20 @@ Changelog
 
 New flavors:
 
+- Added local flavor for Qatar
+  (`gh-544 <https://github.com/django/django-localflavor/pull/544>`_).
 - Added local flavor for Taiwan
   (`gh-530 <https://github.com/django/django-localflavor/pull/530>`_).
+- Added local flavor for United Arab Emirates
+  (`gh-542 <https://github.com/django/django-localflavor/pull/542>`_).
 
 New fields for existing flavors:
 
-- None
+- US: Added ``USIndividualTaxpayerIdentificationNumberField``,
+  ``USAdoptionTaxpayerIdentificationNumberField``, and
+  ``USTaxpayerIdentificationNumberField`` form and model fields for validating
+  ITINs, ATINs, and any valid U.S. taxpayer identification number (SSN, ITIN,
+  or ATIN).
 
 Modifications to existing flavors:
 
@@ -19,6 +27,15 @@ Modifications to existing flavors:
   (`gh-529 <https://github.com/django/django-localflavor/pull/529>`_).
 - Update SI postal codes
   (`gh-531 <https://github.com/django/django-localflavor/pull/531>`_).
+- Update BR CNPJ validator to accept new alphanumeric format
+  (`gh-533 <https://github.com/django/django-localflavor/pull/533>`_).
+- Added Falkland Islands (Malvinas), Honduras, Oman, Somalia and Yemen to IBAN_COUNTRY_CODE_LENGTH dict based on
+  version 101 of the IBAN registry document from December 2025. The minium version of python-stdnum is now 2.2.
+  (`gh-538 <https://github.com/django/django-localflavor/pull/538>`_),
+  (`gh-547 <https://github.com/django/django-localflavor/pull/547>`_)
+- Updated NORDEA_COUNTRY_CODE_LENGTH with data from nordea-country-and-currency-list.pdf v2.2
+  (`gh-546 <https://github.com/django/django-localflavor/pull/546>`_).
+
 
 Other changes:
 
